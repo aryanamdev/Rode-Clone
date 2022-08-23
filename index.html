@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rode Clone </title>
+
+<!-- Font Awesome CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Tailwind CDN -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+        extend: {
+            colors: {
+                'gold': '#AD9970',
+            },
+        }
+        }
+    }
+    </script>
+
+<!-- Extra styles -->
+
+    <style>
+
+    *{
+        transition: all ease 200ms;
+    }
+        @media screen and (min-width:768px) {
+
+    .hero-1{
+        background-image: url('assets/rode2.jpg');
+        height: 90vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-2{
+        background-image: url('assets/rode3.jpg');
+        height: 90vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-3{
+        background-image: url('assets/rode4.jpg');
+        height: 90vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-4{
+        background-image: url('/assets/rode5.jpg');
+        height: 90vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-5{
+        background-image: url('/assets/rode6.jpg');
+        height: 90vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-6{
+        background-image: url('/assets/rode7.jpg');
+        height: 90vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+    </style>
+
+</head>
+<body>
+
+
+        <!-- Navbar -->
+
+        <div class="
+        w-[100%]
+        fixed 
+        top-0 
+        bg-white
+        h-12
+
+        lg:px-16
+">
+
+        <nav class="
+        navbar 
+        flex
+        px-4 
+        py-2
+        justify-between
+        items-center
+        drop-shadow-xl
+        h-full
+    ">
+
+            <!-- left sm -->
+            
+            <div class="
+            flex 
+            gap-5
+
+            lg:hidden
+            ">
+
+                <!-- Hamburger -->
+
+                <div 
+                class="
+                hamburger-container
+                lg:hidden">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </div>
+
+                <!-- Location EN and Dropdown -->
+
+                <div class="
+                location-en-dd
+                flex 
+                items-center
+                gap-1
+
+                lg-hidden
+                ">
+
+                    <svg width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.49992 0.557373C3.20963 0.557373 0.537109 3.22533 0.537109 6.49236C0.537109 11.0063 6.49992 17.4359 6.49992 17.4359C6.49992 17.4359 12.4627 11.0063 12.4627 6.49236C12.4627 3.22533 9.79021 0.557373 6.49992 0.557373Z" stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M6.50048 9.7315C8.28058 9.7315 9.72362 8.23449 9.72362 6.38784C9.72362 4.54119 8.28058 3.04419 6.50048 3.04419C4.72039 3.04419 3.27734 4.54119 3.27734 6.38784C3.27734 8.23449 4.72039 9.7315 6.50048 9.7315Z" stroke="#484848" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+
+                    <p>
+                        EN
+                    </p>
+
+                    <i class="fa-solid fa-caret-down"></i>
+
+                </div>
+
+            </div>
+
+            <!-- middle sm   left lg -->
+            
+            <div class="
+            middle
+            pr-6">
+
+            <img alt="RØDE" title="RØDE" src="https://cdn.rode.com/website/images/logo/RODE_Logo_87x51_RGB.svg" width="88" class="logo-mobile fluid-img light-mode mx-auto">
+                
+            </div>
+
+            <!-- middle lg -->
+
+            <ul class="
+            hidden
+            flex
+            justify-center
+            items-center
+            gap-5
+            text-[.9em]
+            font-medium
+            
+            
+            lg:flex">
+                <li class="hover:text-gold cursor-pointer">PRODUCTS 
+                </li>
+                <li class="hover:text-gold cursor-pointer">USER </li>
+                <li class="hover:text-gold cursor-pointer">GUIDES </li>
+                <li class="hover:text-gold cursor-pointer">SOLUTIONS </li>
+                <li class="hover:text-gold cursor-pointer">APPAREL </li>
+                <li class="hover:text-gold cursor-pointer">SUPPORT</li>
+            </ul>
+
+
+            <!-- right -->
+
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+        </nav>
+        </div>
+
+
+        <!-- Hero -->
+        
+        <!-- Roadcaster Pro 2 -->
+        <section class="
+        mt-10
+        hero-1
+        overflow-hidden
+        flex-col
+
+        md:flex
+        md:flex-row
+        md:justify-end
+        md:items-center
+        ">
+
+
+            <!-- rode sm img -->
+
+            <div class="
+            md:hidden">
+                <img src="/assets/rode-res-1.jpg" alt="">
+            </div>
+
+            <!-- Hero-content -->
+
+            <div class="
+            flex
+            flex-col
+            bg-black
+            gap-3
+            p-6
+            items-center
+            text-white
+            
+            md:mr-10
+            md:bg-transparent
+            md:w-2/4
+            ">
+
+                <img src="/assets/rode1.svg" alt="">
+
+                <h2 class="
+                font-medium
+                text-lg">
+                The Revolution Is Here
+                </h2>
+
+                <p class="
+                text-center
+                text-sm w-[70%] 
+                mb-3
+
+                ">
+                    The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.
+                </p>
+
+                <!-- learn more and buy now -->
+
+                <div class="
+                buttons
+                flex
+                items-center
+                gap-3">
+
+                    <!-- learn more -->
+
+                    <a class = "
+                    uppercase
+                    text-sm" 
+
+                    href="#">
+                        learn more
+
+                        <i class="fa-solid fa-caret-right"></i>
+
+                    </a>
+
+                    <!-- buy now -->
+
+                    <button class="
+                    px-3
+                    py-1
+                    rounded-2xl
+                    bg-gold
+                    text-white
+                    uppercase 
+                    text-sm
+                    font-semibold
+                    
+                    hover:border-gold
+                    hover:border-2
+                    hover:border-solid
+                    hover:bg-transparent
+                    hover:text-white
+                    ">
+                        buy now
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+        </section>
+
+        <!-- hero-2 -->
+        <!-- NTH-100 -->
+
+        <section class="
+        hero-2
+        flex-col
+        overflow-hidden
+
+        md:flex
+        md:flex-row
+        md:justify-start
+        md:items-center
+        ">
+
+
+            <!-- rode sm img -->
+
+            <div class="hidden
+            md:hidden">
+                <img src="/assets/rode-res-2.jpg" alt="">
+            </div>
+
+            <!-- Hero-content -->
+
+            <div class="
+            flex
+            flex-col
+            gap-3
+            p-6
+            items-center
+            bg-white
+            text-black
+            
+            md:mr-10
+            md:bg-transparent
+            md:w-2/4
+            ">
+
+                <img src="/assets/rode-text2.svg" alt="">
+
+                <h2 class="
+                font-medium
+                text-lg text-center">
+                Your Search For The Perfect Headphones Is Over
+                </h2>
+
+                <p class="
+                text-center
+                text-sm w-[70%] 
+                mb-3
+
+                ">
+                Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.
+                </p>
+
+                <!-- learn more and buy now -->
+
+                <div class="
+                buttons
+                flex
+                items-center
+                gap-3">
+
+                    <!-- learn more -->
+
+                    <a class = "
+                    uppercase
+                    text-sm" 
+
+                    href="#">
+                        learn more
+
+                        <i class="fa-solid fa-caret-right"></i>
+
+                    </a>
+
+                    <!-- buy now -->
+
+                    <button class="
+                    px-3
+                    py-1
+                    rounded-2xl
+                    bg-gold
+                    text-white
+                    uppercase 
+                    text-sm
+                    font-semibold
+                    
+                    hover:border-gold
+                    hover:border-2
+                    hover:border-solid
+                    hover:bg-transparent
+                    hover:text-black">
+                        buy now
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- hero-3 -->
+        <!-- NT-USB -->
+
+        <section class="
+        hero-3
+        flex-col
+        overflow-hidden
+
+        md:flex
+        md:flex-row
+        md:justify-end
+        md:items-center
+        ">
+
+
+            <!-- rode sm img -->
+
+            <div class="
+
+            md:hidden">
+                <img src="assets/rode4-res.jpg" alt="">
+            </div>
+
+            <!-- Hero-content -->
+
+            <div class="
+            flex
+            flex-col
+            gap-3
+            p-6
+            items-center
+            bg-white
+            text-black
+            
+            md:mr-10
+            md:bg-transparent
+            md:w-2/4
+            ">
+
+                <img src="/assets/rode-text3.svg" alt="">
+
+                <h2 class="
+                font-medium
+                text-lg">
+                Studio-Quality Recording, Made Simple
+                </h2>
+
+                <p class="
+                text-center
+                text-sm w-[70%] 
+                mb-3
+
+                ">
+                    The NT-USB is a studio-quality USB condenser microphone that offers impeccable audio, elegant looks and premium features, all in an easy-to-use form factor, the NT-USB will have you sounding like a pro in seconds.
+                </p>
+
+                <!-- learn more and buy now -->
+
+                <div class="
+                buttons
+                flex
+                items-center
+                gap-3">
+
+                    <!-- learn more -->
+
+                    <a class = "
+                    uppercase
+                    text-sm" 
+
+                    href="#">
+                        learn more
+
+                        <i class="fa-solid fa-caret-right"></i>
+
+                    </a>
+
+                    <!-- buy now -->
+
+                    <button class="
+                    px-3
+                    py-1
+                    rounded-2xl
+                    bg-gold
+                    text-white
+                    uppercase 
+                    text-sm
+                    font-semibold
+                    
+                    hover:border-gold
+                    hover:border-2
+                    hover:border-solid
+                    hover:bg-transparent
+                    hover:text-black
+                    md:hover:text-black">
+                        buy now
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- hero-4 -->
+        <!-- pod mic -->
+
+        <section class="
+        hero-4
+        flex-col
+        overflow-hidden
+
+        md:flex
+        md:flex-row
+        md:justify-start
+        md:items-center
+        ">
+
+
+            <!-- rode sm img -->
+
+            <div class="
+
+            md:hidden">
+                <img src="assets/rode5-res.jpg" alt="">
+            </div>
+
+            <!-- Hero-content -->
+
+            <div class="
+            flex
+            flex-col
+            gap-3
+            p-6
+            items-center
+            bg-white
+            text-black
+            
+            text-white
+            md:mr-10
+            md:bg-transparent
+            md:w-2/4
+            ">
+
+                <img src="/assets/rode-text4-res.svg" alt="" class="md:hidden">
+                <img src="/assets/rode-text4.svg" alt="" class=" hidden md:block">
+
+                <h2 class="
+                font-medium
+                text-lg">
+                Broadcast-grade Dynamic Microphone
+                </h2>
+
+                <p class="
+                text-center
+                text-sm w-[70%] 
+                mb-3
+
+                ">
+                Give your voice that rich, broadcast sound with the PodMic. Perfect for livestreaming, voice-over, podcasting and gameplay.
+                </p>
+
+                <!-- learn more and buy now -->
+
+                <div class="
+                buttons
+                flex
+                items-center
+                gap-3">
+
+                    <!-- learn more -->
+
+                    <a class = "
+                    uppercase
+                    text-sm" 
+
+                    href="#">
+                        learn more
+
+                        <i class="fa-solid fa-caret-right"></i>
+
+                    </a>
+
+                    <!-- buy now -->
+
+                    <button class="
+                    px-3
+                    py-1
+                    rounded-2xl
+                    bg-gold
+                    text-white
+                    uppercase 
+                    text-sm
+                    font-semibold
+                    
+                    hover:border-gold
+                    hover:border-2
+                    hover:border-solid
+                    hover:bg-transparent
+                    hover:text-black
+                    md:hover:text-white">
+                        buy now
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- hero-5 -->
+        <!-- wireless go -->
+
+        <section class="
+        hero-5
+        flex-col
+        overflow-hidden
+
+        md:flex
+        md:flex-row
+        md:justify-end
+        md:items-center
+        ">
+
+
+            <!-- rode sm img -->
+
+            <div class="
+
+            md:hidden">
+                <img src="assets/rode6-res.jpg" alt="">
+            </div>
+
+            <!-- Hero-content -->
+
+            <div class="
+            flex
+            flex-col
+            gap-3
+            p-6
+            items-center
+            bg-white
+            text-black
+
+            md:text-white
+            
+            md:mr-10
+            md:bg-transparent
+            md:w-2/4
+            ">
+
+                <img src="/assets/rode-text5-res.svg" alt="" class="md:hidden">
+
+                <img src="/assets/rode-text5.svg" alt="" class="hidden md:block">
+
+                <h2 class="
+                font-medium
+                text-lg">
+                Next Generation Wireless Audio
+                </h2>
+
+                <p class="
+                text-center
+                text-sm w-[70%] 
+                mb-3
+
+                ">
+                    The Wireless GO II is the world’s most powerful and versatile wireless microphone. With an unparalleled feature set and ultra-compact form factor, this is next generation wireless audio for every creator.
+                </p>
+
+                <!-- learn more and buy now -->
+
+                <div class="
+                buttons
+                flex
+                items-center
+                gap-3">
+
+                    <!-- learn more -->
+
+                    <a class = "
+                    uppercase
+                    text-sm" 
+
+                    href="#">
+                        learn more
+
+                        <i class="fa-solid fa-caret-right"></i>
+
+                    </a>
+
+                    <!-- buy now -->
+
+                    <button class="
+                    px-3
+                    py-1
+                    rounded-2xl
+                    bg-gold
+                    uppercase 
+                    text-sm
+                    font-semibold
+                    text-black
+                    
+                    md:text-white
+                    hover:border-gold
+                    hover:border-2
+                    hover:border-solid
+                    hover:bg-transparent
+                    hover:text-black
+                    md:hover:text-white">
+                        buy now
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- hero-6 -->
+        <!-- ntb mini -->
+
+        <section class="
+        hero-6
+        flex-col
+        overflow-hidden
+
+        md:flex
+        md:flex-row
+        md:justify-start
+        md:items-center
+        ">
+
+
+            <!-- rode sm img -->
+
+            <div class="
+
+            md:hidden">
+                <img src="/assets/rode7-res.jpg" alt="">
+            </div>
+
+            <!-- Hero-content -->
+
+            <div class="
+            flex
+            flex-col
+            gap-3
+            p-6
+            items-center
+            bg-white
+            text-black
+            md:text-white
+
+            
+            
+            md:mr-10
+            md:bg-transparent
+            md:w-2/4
+            ">
+
+                <img src="/assets/rode-text6-res.svg" alt="" class="md:hidden">
+
+                <img src="/assets/rode-text6.svg" alt="" class="
+                hidden
+                md:block">
+
+                <h2 class="
+                font-medium
+                text-lg">
+                Studio-Quality Recording, Made Simple
+                </h2>
+
+                <p class="
+                text-center
+                text-sm w-[70%] 
+                mb-3
+
+                ">
+                    The NT-USB is a studio-quality USB condenser microphone that offers impeccable audio, elegant looks and premium features, all in an easy-to-use form factor, the NT-USB will have you sounding like a pro in seconds.
+                </p>
+
+                <!-- learn more and buy now -->
+
+                <div class="
+                buttons
+                flex
+                items-center
+                gap-3">
+
+                    <!-- learn more -->
+
+                    <a class = "
+                    uppercase
+                    text-sm" 
+
+                    href="#">
+                        learn more
+
+                        <i class="fa-solid fa-caret-right"></i>
+
+                    </a>
+
+                    <!-- buy now -->
+
+                    <button class="
+                    px-3
+                    py-1
+                    rounded-2xl
+                    bg-gold
+                    text-white
+                    uppercase 
+                    text-sm
+                    font-semibold
+                    
+                    hover:border-gold
+                    hover:border-2
+                    hover:border-solid
+                    hover:bg-transparent
+                    hover:text-black
+                    md:hover:text-white">
+                        buy now
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- explore the rode range -->
+
+        <section class="
+        p-4
+        flex
+        flex-col
+        items-center
+        mb-8
+
+        lg:p-20
+        ">
+
+            <!-- Heading -->
+
+            <h1 class="
+            mb-10
+            text-3xl
+            text-gray-500
+            text-gold"> Explore The RØDE Range </h1>
+
+            <!-- Sections -->
+
+            <div class="
+            img-container
+            flex
+            gap-5
+            flex-col
+            justify-between
+            w-full
+            
+            md-gap-8">
+
+                <!-- image 1 -->
+
+                <div class="
+                img
+                w-[100%]
+                h-24
+                md:h-32
+                lg:h-56
+
+                flex
+                justify-center 
+                items-center
+
+                hover:scale-105
+                cursor-pointer
+                " 
+                style="background-image: url(./assets/rode8.png); background-size: cover; background-position: center;">
+
+                    <div class="font-semibold
+                    text-white
+                    text-center
+                    text-2xl
+
+                    md:text-4xl
+                    lg:text-6xl
+                    flex">
+                        MICROPHONES
+                    </div>
+
+                </div>
+
+                
+                <!-- image 2 -->
+
+                <div class="
+                img
+                w-[100%]
+                h-24
+                md:h-32
+                lg:h-56
+
+                flex
+                justify-center 
+                items-center
+
+                hover:scale-105
+                cursor-pointer
+                " 
+                style="background-image: url(./assets/rode9.jpg); background-size: cover; background-position: center;">
+
+                    <div class="font-semibold
+                    text-white
+                    text-center
+                    text-2xl
+
+                    md:text-4xl
+                    lg:text-6xl
+                    flex">
+                        INTERFACES & MIXERS
+                    </div>
+
+                </div>
+                
+                <!-- image 3 -->
+
+                <div class="
+                img
+                w-[100%]
+                h-24
+                md:h-32
+                lg:h-56
+
+                flex
+                justify-center 
+                items-center
+
+                hover:scale-105
+                cursor-pointer
+                " 
+                style="background-image: url(./assets/rode10.png); background-size: cover; background-position: center;">
+
+                    <div class="font-semibold
+                    text-white
+                    text-center
+                    text-2xl
+
+                    md:text-4xl
+                    lg:text-6xl
+                    flex">
+                        SOFTWARE
+                    </div>
+
+                </div>
+                
+                <!-- image 4 -->
+
+                <div class="
+                img
+                w-[100%]
+                h-24
+                md:h-32
+                lg:h-56
+
+                flex
+                justify-center 
+                items-center
+
+                hover:scale-105
+                cursor-pointer
+                " 
+                style="background-image: url(./assets/rode11.png); background-size: cover; background-position: center;">
+
+                    <div class="font-semibold
+                    text-white
+                    text-center
+                    text-2xl
+
+                    md:text-4xl
+                    lg:text-6xl
+                    flex">
+                        ACCESSORIES
+                    </div>
+
+                </div>
+
+            </div>
+            
+
+        </section>
+
+        <!-- latest from rode blog -->
+
+        <section class="
+        p-4
+        flex
+        flex-col
+        items-center
+        bg-gray-200
+        mb-5
+
+
+        lg:p-20
+        ">
+
+            <!-- Heading -->
+
+            <h1 class="
+            mb-10
+            text-3xl
+            text-gray-500
+            text-center
+            text-gold
+            
+            md:text-4xl"> Latest From The RØDE Blog </h1>
+
+            <!-- blogs -->
+
+            <div class="
+            flex 
+            flex-col
+            gap-4
+
+            md:gap-8
+            
+            md:flex-row">
+                
+
+                <!-- blog -->
+
+                <div class="
+                flex
+                flex-col
+                gap-2
+                items-center
+                justify-center
+                
+                md:bg-white
+                md:rounded-3xl
+                md:shadow-md
+
+                md:h-[100vh]
+                
+                lg:h-[130vh]">
+
+                    <div class="
+                    flex
+                    flex-col
+                    items-center
+                    gap-5
+                    mb-5
+                    p-5">
+                        <h3
+                    class="
+                    text-lg
+                    text-center
+                    font-medium
+                    
+                    lg:text-2xl
+                    ">
+                        The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones
+                    </h3>
+
+                    <p class="
+                    text-center
+                    text-sm
+                    text-gold
+
+                    lg:text-lg 
+
+                    
+                    ">
+                        We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.
+                    </p>
+
+                    <button class="
+                    px-5
+                    py-1
+                    rounded-2xl
+                    bg-gold
+                    text-white
+                    uppercase 
+                    text-md
+                    font-semibold
+                    w-fit
+                    mb-3
+
+                    mg:text-lg
+
+                    hover:border-gold
+                    hover:border-2
+                    hover:border-solid
+                    hover:bg-transparent
+                    hover:text-gold
+                    ">
+                        Learn More
+                    </button>
+
+                    </div>
+
+                    
+                    <!-- Learn more -->
+
+
+                    <img src="/assets/person1.jpeg" alt="">
+
+
+                </div>
+
+                <!-- blog -->
+
+                <div class="
+                flex
+                flex-col
+                gap-2
+                items-center
+                justify-center
+                
+                md:bg-white
+                md:rounded-3xl
+                md:shadow-md
+
+                md:h-[100vh]
+                
+                lg:h-[130vh]">
+
+                    <div class="
+                    flex
+                    flex-col
+                    items-center
+                    gap-5
+                    mb-5
+                    p-4
+">
+                        <h3
+                    class="
+                    text-lg
+                    text-center
+                    font-medium
+                    
+                    lg:text-2xl
+                    ">
+                        The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones
+                    </h3>
+
+                    <p class="
+                    text-center
+                    text-sm
+                    text-gold
+
+                    lg:text-lg 
+
+                    
+                    ">
+                        We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.
+                    </p>
+
+                    <button class="
+                    px-5
+                    py-1
+                    rounded-2xl
+                    bg-gold
+                    text-white
+                    uppercase 
+                    text-md
+                    font-semibold
+                    w-fit
+                    mb-3
+
+                    mg:text-lg
+
+                    hover:border-gold
+                    hover:border-2
+                    hover:border-solid
+                    hover:bg-transparent
+                    hover:text-gold
+                    ">
+                        Learn More
+                    </button>
+
+                    </div>
+
+                    
+                    <!-- Learn more -->
+
+
+                    <img src="/assets/person2.jpg" alt="">
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- footer -->
+
+        <footer class="
+        flex flex-col
+        items-center
+        p-4">
+
+            <!-- footer logo -->
+
+            <div class="mb-8">
+                <img src="/assets/footer-logo.svg" alt="">
+            </div>
+
+
+            <!-- footer items -->
+            <div class="
+            w-full
+            flex
+            flex-col
+            gap-2
+            mb-5
+            
+            md:flex-row
+            md:flex-wrap
+            md:gap-32
+            md:justify-center
+            md-items-center">
+
+            <!-- item-1 -->
+
+            <div class="
+            flex
+            justify-between
+            items-center
+            h-10
+            p-3
+            
+            md:flex-col
+            md:flex-wrap
+            md:gap-3
+            md:h-fit
+            items-center">
+
+                <div class="
+                font-medium
+                text-md">Products</div>
+
+                <ul class=" hidden md:flex flex-col items-center gap-2 text-sm text-gray-500">
+                    <li>Microphones</li>
+                    <li>Headphones</li>
+                    <li>Interfaces</li>
+                    <li>Apparel</li>
+                </ul>
+
+
+                <div class="md:hidden">
+                <div class="fa-solid fa-plus"></div>
+                </div>
+
+            </div>
+
+            <!-- item-1 -->
+
+            <div class="flex
+            justify-between
+            items-center
+            h-10
+            p-3
+            
+            md:flex-col
+            md:flex-wrap
+            md:gap-3
+            md:h-fit
+            items-center">
+                <div class="
+                font-medium
+                text-md">Support</div>
+
+                <ul class=" hidden md:flex flex-col items-center gap-2 text-sm text-gray-500">
+                    <li>Microphones</li>
+                    <li>Headphones</li>
+                    <li>Interfaces</li>
+                    <li>Apparel</li>
+                </ul>
+
+                <div class="md:hidden">
+                <div class="fa-solid fa-plus"></div>
+                </div>
+            </div>
+
+            <!-- item-1 -->
+
+            <div class="
+            flex
+
+            justify-between
+            items-center
+            h-10
+            p-3
+            
+            md:flex-col
+            md:flex-col
+            md:flex-wrap
+            md:gap-3
+            md:h-fit
+            items-center">
+                <div class="
+                font-medium
+                text-md">Company</div>
+
+                <ul class=" hidden md:flex flex-col items-center gap-2 text-sm text-gray-500">
+                    <li>Microphones</li>
+                    <li>Headphones</li>
+                    <li>Interfaces</li>
+                    <li>Apparel</li>
+                </ul>
+
+                <div class="md:hidden">
+                <div class="fa-solid fa-plus"></div>
+                </div>
+            </div>
+
+            <!-- item-1 -->
+
+            <div class="
+            flex
+
+            justify-between
+            items-center
+            h-10
+            p-3
+            
+            md:flex-col
+            md:flex-col
+            md:flex-wrap
+            md:gap-3
+            md:h-fit
+            items-center">
+                <div class="
+                font-medium
+                text-md">About</div>
+
+                <ul class=" hidden md:flex flex-col items-center gap-2 text-sm text-gray-500">
+                    <li>Microphones</li>
+                    <li>Headphones</li>
+                    <li>Interfaces</li>
+                    <li>Apparel</li>
+                </ul>
+
+                <div class="md:hidden">
+                <div class="fa-solid fa-plus"></div>
+                </div>
+            </div>
+            </div>
+        </footer>
+                
+            <!-- subscribe to our newsletter -->
+
+            <div class="
+            
+            flex
+            flex-col
+            items-center
+            justify-center">
+
+                <h2 class="
+                text-2xl
+                leading-tight
+                w-[90%]
+                text-center
+                font-medium
+                mb-5">
+                    Subscribe to our latest news and offers 
+                </h2>
+
+                <!-- sign up -->
+
+                <button class="
+                        px-3
+                        py-1
+                        rounded-2xl
+                        bg-gold
+                        text-white
+                        uppercase 
+                        text-sm
+                        font-semibold
+                        mb-3
+
+                        md:mb-10
+                        
+                        hover:border-gold
+                        hover:border-2
+                        hover:border-solid
+                        hover:bg-transparent
+                        hover:text-gold
+                        ">
+                            Sign Up
+                </button>
+
+            </div>
+
+</body>
+</html>
